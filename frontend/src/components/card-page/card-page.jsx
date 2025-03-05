@@ -6,7 +6,7 @@ import { UserContext } from "../../utils/context";
 
 import returnIcon from "../../images/left.svg";
 import editIcon from "../../images/edit.svg";
-import defaultImg from "../../images/default-kitty.jpg";
+import defaultImg from "../../images/default-froggy.png";
 import removeIcon from "../../images/trash.svg";
 
 import { ButtonSecondary } from "../ui/button-secondary/button-secondary";

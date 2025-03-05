@@ -113,7 +113,7 @@ export const EditCardPage = ({ data, setData, extraClass = "" }) => {
   return (
     <div className={`${styles.content} ${extraClass}`}>
       <h2 className="text text_type_h2 text_color_primary mt-25 mb-9">
-        Редактировать кота
+        Редактировать лягушку
       </h2>
       <ButtonSecondary
         extraClass={styles.return_btn_mobile}
@@ -126,7 +126,7 @@ export const EditCardPage = ({ data, setData, extraClass = "" }) => {
             <img
               className={styles.current_img}
               src={card.image_url}
-              alt="Фото котика."
+              alt="Фото лягушки."
             />
             <ButtonSecondary
               extraClass={styles.remove_btn}
@@ -139,7 +139,7 @@ export const EditCardPage = ({ data, setData, extraClass = "" }) => {
             <img
               className={styles.img}
               src={addImgIcon}
-              alt="Добавить фото котика."
+              alt="Добавить фото лягушки."
             />
             <p className="text text_type_medium-16 text_color_primary">
               {currentFileName
@@ -157,7 +157,7 @@ export const EditCardPage = ({ data, setData, extraClass = "" }) => {
         />
         <Input
           type="text"
-          placeholder="Имя кота"
+          placeholder="Имя лягушки"
           name="name"
           defaultValue={card.name}
           onChange={onChangeInput}

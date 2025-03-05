@@ -75,7 +75,7 @@ export const AddCardPage = ({ extraClass = "" }) => {
   return (
     <div className={`${styles.content} ${extraClass}`}>
       <h2 className="text text_type_h2 text_color_primary mt-25 mb-9">
-        Новый кот
+        Новая лягушка
       </h2>
       <ButtonSecondary
         extraClass={styles.return_btn_mobile}
@@ -87,7 +87,7 @@ export const AddCardPage = ({ extraClass = "" }) => {
           <img
             className={styles.img}
             src={addImgIcon}
-            alt="Добавить фото котика."
+            alt="Добавить фото лягушки."
           />
           <p className="text text_type_medium-16 text_color_primary">
             {currentFileName
@@ -106,7 +106,7 @@ export const AddCardPage = ({ extraClass = "" }) => {
           onChange={onChangeInput}
           name="name"
           type="text"
-          placeholder="Имя кота"
+          placeholder="Имя лягушки"
           error={errorName}
         />
         <Input

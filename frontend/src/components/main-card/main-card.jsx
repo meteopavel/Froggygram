@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-import defaultImg from "../../images/default-kitty.jpg";
+import defaultImg from "../../images/default-froggy.png";
 
 import styles from "./main-card.module.css";
 
